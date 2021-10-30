@@ -1,0 +1,12 @@
+.nav-bg{
+    background-color: indigo;
+}
+.nav-item{
+    color: whitesmoke;
+
+}
+.user-photo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}

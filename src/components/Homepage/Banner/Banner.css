@@ -1,0 +1,13 @@
+.banner-bg{
+    background-image: url(../../../images/banner-2.webp),linear-gradient(rgb(44, 43, 43), rgb(85, 89, 94));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:90vh;
+    background-blend-mode: overlay;
+}
+.banner-text{
+    height: 80vh;
+    color: #f5f5f5;
+    text-align: center;
+}

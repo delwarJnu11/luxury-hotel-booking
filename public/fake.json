@@ -1,0 +1,38 @@
+[
+    {
+        "image": "https://i.ibb.co/rxcKtsB/classic-double.webp",
+        "title": "Classic Double Bed Room",
+        "description": "Your bedroom is where you rest and recharge after a long, hectic day, so there's no reason why you wouldn't want it to feel like a retreat. With a few simple decor upgrades.",
+        "price": 149
+    },
+    {
+        "image": "https://i.ibb.co/zbxGc1S/double.webp",
+        "title": "Double Bed Room",
+        "description": "Your bedroom is where you rest and recharge after a long, hectic day, so there's no reason why you wouldn't want it to feel like a retreat. With a few simple decor upgrades.",
+        "price": 99
+    },
+    {
+        "image": "https://i.ibb.co/sb44vyy/family.webp",
+        "title": "Family Bed Room",
+        "description": "Your bedroom is where you rest and recharge after a long, hectic day, so there's no reason why you wouldn't want it to feel like a retreat. With a few simple decor upgrades.",
+        "price": 199
+    },
+    {
+        "image": "https://i.ibb.co/XWY6PRz/suite.webp",
+        "title": "Suite Bed Room",
+        "description": "Your bedroom is where you rest and recharge after a long, hectic day, so there's no reason why you wouldn't want it to feel like a retreat. With a few simple decor upgrades.",
+        "price": 49
+    },
+    {
+        "image": "https://i.ibb.co/swj72kZ/superior-double.webp",
+        "title": "Superioor Double Bed Room",
+        "description": "Your bedroom is where you rest and recharge after a long, hectic day, so there's no reason why you wouldn't want it to feel like a retreat. With a few simple decor upgrades.",
+        "price": 249
+    },
+    {
+        "image": "https://i.ibb.co/rxJVzMk/superior-family.webp",
+        "title": "Superior Family Bed Room",
+        "description": "Your bedroom is where you rest and recharge after a long, hectic day, so there's no reason why you wouldn't want it to feel like a retreat. With a few simple decor upgrades.",
+        "price": 299
+    }
+]
