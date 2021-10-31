@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button, Col, Container, Row } from 'react-bootstrap';
 import { useForm } from 'react-hook-form';
-import hotel from '../../images/hotel-room.jpg'
+import hotel from '../../images/hotel-room.png';
 
 const AddService = () => {
     const { register, handleSubmit, reset } = useForm();

@@ -6,6 +6,7 @@ import SignIn from './components/Loginpage/SignIn/SignIn';
 import SignUp from './components/Loginpage/SignUp/SignUp';
 import ManageOrders from './components/ManageOrders/ManageOrders';
 import MyOrders from './components/MyOderders/MyOrders';
+import NotFound from './components/NotFound/NotFound';
 import PlaceOrder from './components/PlaceOrder/PlaceOrder';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 import Footer from './components/Shared/Footer/Footer';
@@ -41,6 +42,9 @@ function App() {
           </Route>
           <Route path="/signup">
             <SignUp></SignUp>
+          </Route>
+          <Route path="*">
+            <NotFound></NotFound>
           </Route>
         </Switch>
         <Footer></Footer>
