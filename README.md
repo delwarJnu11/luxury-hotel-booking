@@ -1,6 +1,6 @@
 # Getting Started with Luxury Hotel
 
-This project was bootstrapped with [https://luxury-hotel-a1d89.web.app/](https://luxury-hotel-a1d89.web.app/).
+Live Website Link [https://luxury-hotel-a1d89.web.app/](https://luxury-hotel-a1d89.web.app/).
 
 ## About Luxury Hotel
 Welcome To Luxury Hotel.It's Located in Gazipur, Grand Vacations offers both an outdoor and indoor pool as well as lobby and poolside bars. Near the National park, the Luxury Hotel Convention Center is 750 metres away and BangaBandhu Safari Park is 3 km away.
