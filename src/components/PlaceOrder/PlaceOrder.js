@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import { Button, Col, Container, Row } from 'react-bootstrap';
 import { useForm } from 'react-hook-form';
-import { useParams } from 'react-router';
+import { useHistory, useParams } from 'react-router';
 import useAuth from '../../hooks/useAuth';
 
 const PlaceOrder = () => {
+    const history = useHistory();
     const [service, setService] = useState({});
     const { id } = useParams();
     useEffect(() => {
@@ -17,11 +18,12 @@ const PlaceOrder = () => {
     const onSubmit = data => {
         data.name = user.displayName;
         data.status = "pending";
-        data.service = user.service;
+        data.service = service;
         const { status, name, email, address, phone } = data;
         const newUser = { status, name, email, address, phone, service };
         alert('Order placed SuccessFull ')
-        reset()
+        reset();
+        history.push('/my-bookings');
         fetch('https://nameless-bastion-67393.herokuapp.com/orders', {
             method: "POST",
             headers: {
@@ -31,7 +33,7 @@ const PlaceOrder = () => {
         })
     };
     return (
-        <Container>
+        <Container className="my-4">
             <Row className="d-flex justify-content-center align-items-center">
                 <Col md={6}>
                     <div>

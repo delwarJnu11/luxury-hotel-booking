@@ -10,7 +10,7 @@ const MyOrders = () => {
         fetch(`https://nameless-bastion-67393.herokuapp.com/orders/${email}`)
             .then(res => res.json())
             .then(data => setOrders(data));
-    }, [email])
+    }, [email, orders])
 
     //Remove
     const handleRemove = (id) => {
@@ -25,7 +25,7 @@ const MyOrders = () => {
                         alert('Successfully Deleted!')
                         const remainingOrders = orders.filter(order => order._id !== id)
                         setOrders(remainingOrders);
-                        window.location.reload()
+                        //  window.location.reload()
                     }
                 })
         }
@@ -36,6 +36,8 @@ const MyOrders = () => {
     return (
         <Container className="my-4">
 
+            <h1 className="text-success text-center" style={{ fontFamily: "cursive" }}>My All Orders {orders.length}</h1>
+
             {
                 orders.map(order => <Row xs={1} md={1} className="g-4 my-4">
                     <Col md={4}>
@@ -44,9 +46,10 @@ const MyOrders = () => {
                         </div>
                     </Col>
                     <Col md={8}>
-                        <h2>{order?.service?.title} </h2>
+                        <h2 className="text-success">{order?.service?.title} </h2>
                         <strong><Badge variant="danger">{order.status}</Badge></strong>
-                        <p>{order?.service?.description}</p>
+                        <p className="text-muted mt-2">Ordered By: {order?.name}</p>
+                        <p className="mt-0">{order?.service?.description}</p>
                         <Button onClick={() => handleRemove(order._id)} variant="danger">Remove</Button>
                     </Col>
                 </Row>)

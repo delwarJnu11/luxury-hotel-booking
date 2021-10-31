@@ -10,7 +10,7 @@ const Services = () => {
             <Row>
                 <Col>
                     <div>
-                        <h2 className="text-center fs-1">Room & Suits</h2>
+                        <h2 className="text-center fs-1 text-success">Room & Suits</h2>
                         <p className="text-center mt-3 mb-5">We love to tell our successful far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                     </div>
                 </Col>

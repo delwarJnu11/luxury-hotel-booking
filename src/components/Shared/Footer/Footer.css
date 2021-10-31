@@ -1,22 +1,22 @@
 .footer-bg{
-    background-color: rgb(54, 53, 53);
+    background-color: rgb(61, 112, 223);
     color: rgb(216, 202, 202);
 }
 .icon{
     font-size: 50px;
-    background-color: rgb(94, 93, 93);
+    background-color: rgb(88, 134, 194);
     color: white;
     padding: 10px;
     margin: 5px;
     transition: all 0.5s;
 }
 .icon:hover{
-    background-color: rgb(128, 43, 224);
+    background-color: rgb(45, 45, 46);
 }
 .footer-menu{
     color: whitesmoke;
     transition: all 0.5s;
 }
 .footer-menu:hover{
-    color: rgb(128, 43, 224);
+    color: rgb(39, 38, 39);
 }

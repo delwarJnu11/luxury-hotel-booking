@@ -7,6 +7,7 @@ import { FaEnvelope, FaLock } from 'react-icons/fa';
 import google from '../../../images/google.png';
 import facebook from '../../../images/facebook.png';
 import github from '../../../images/github.png';
+import login from '../../../images/login.jpg';
 import './SignIn.css';
 
 const SignIn = () => {
@@ -67,12 +68,14 @@ const SignIn = () => {
     }
     return (
         <Container className="my-5">
-            <Row>
-                <Col md={4}>
-
+            <Row className="d-flex justify-content-center align-items-center">
+                <Col md={7}>
+                    <div>
+                        <img src={login} alt="" className="img-fluid" />
+                    </div>
                 </Col>
 
-                <Col md={4}>
+                <Col md={5}>
                     <h3 className="my-4">Please Login</h3>
                     <p className="text-danger">{error}</p>
                     <Form onSubmit={handleEmailSignIn}>
@@ -116,12 +119,14 @@ const SignIn = () => {
                             </Col>
                         </Row>
 
-                        <Button type="submit" variant="success" className="mt-2 w-100">
-                            Login
-                        </Button>
-                        <Button type="reset" variant="danger" onClick={resetPassword} className="mt-2 w-100">
-                            Reset Password
-                        </Button>
+                        <div className="d-flex justify-content-between">
+                            <Button type="submit" variant="success" className="mt-2 w-50">
+                                Login
+                            </Button>
+                            <Button type="reset" variant="danger" onClick={resetPassword} className="mt-2 ms-2 w-50">
+                                Reset Password
+                            </Button>
+                        </div>
                     </Form>
                     <p className="mt-2 text-center">New User?
                         <Link className="text-decoration-none" to="/signup"> Create an Account</Link>
@@ -140,10 +145,6 @@ const SignIn = () => {
                             <img width="30px" src={github} alt="" />
                         </Button>
                     </div>
-                </Col>
-
-                <Col md={4}>
-
                 </Col>
             </Row>
         </Container>

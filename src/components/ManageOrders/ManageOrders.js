@@ -7,7 +7,7 @@ const ManageOrders = () => {
     const { allOrders } = useOrders();
     return (
         <Container>
-
+            <h1 className="text-success my-5 text-center" style={{ fontFamily: "cursive" }}>Total Orders {allOrders.length}</h1>
             {
                 allOrders.map(order => <OrdersDetails
                     key={order._id}

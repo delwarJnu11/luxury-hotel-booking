@@ -20,7 +20,7 @@ const OrdersDetails = ({ order }) => {
                         alert('Successfully Deleted!')
                         const remainingOrders = allOrders.filter(order => order._id !== id)
                         setAllOrders(remainingOrders);
-                        window.location.reload()
+                        //window.location.reload()
                     }
                 })
         }
@@ -46,7 +46,7 @@ const OrdersDetails = ({ order }) => {
             .then(data => {
                 if (data.modifiedCount > 0) {
                     alert('Status Updated!');
-                    window.location.reload()
+                    //window.location.reload()
                 }
             })
     }
@@ -58,10 +58,10 @@ const OrdersDetails = ({ order }) => {
                 </div>
             </Col>
             <Col md={8}>
-                <h2>{order?.service?.title}</h2>
-                <strong className="my-3"><Badge variant="danger">{order.status}</Badge></strong>
-                <p>{order?.service?.description}</p>
-                <p>{order?.email}</p>
+                <h2 className="text-success">{order?.service?.title}</h2>
+                <strong><Badge variant="danger">{order.status}</Badge></strong>
+                <p className="my-2">{order?.service?.description}</p>
+                <p className="text-muted">Ordered By: {order?.name}</p>
                 <Button className="me-2" onClick={() => handleRemove(order._id)} variant="danger"> <MdDelete /> Remove</Button>
                 <Button className="ms-2" onClick={() => handleUpdate(order._id)} variant="success"> <GiConfirmed /> Confirm</Button>
             </Col>

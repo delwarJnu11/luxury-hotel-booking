@@ -1,0 +1,7 @@
+.single-card{
+    border: 1px solid rgb(243, 247, 247);
+    
+}
+.single-card:hover{
+    box-shadow: 3px 5px 10px rgb(112, 112, 112);
+}
