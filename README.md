@@ -8,9 +8,9 @@ Welcome To Luxury Hotel.It's Located in Gazipur, Grand Vacations offers both an 
 Featuring a balcony with garden views, an outdoor swimming pool and a terrace. This holiday home features a private pool, a garden and free private parking.
 
 ### Key Points
- -You can Books Single,Double,Family Rooms as you want.
- -24/7 Hours Service Will be provided by our management.
- -You Can Booking Your Rooms through online.
- -You Can Cancel your Booking 24 hour before your check in time.Cancel your order through online.
- -Cash and Digital payment available
+- You can Books Single,Double,Family Rooms as you want.
+- 24/7 Hours Service Will be provided by our management.
+- You Can Booking Your Rooms through online.
+- You Can Cancel your Booking 24 hour before your check in time.Cancel your order through online.
+- Cash and Digital payment available
 
