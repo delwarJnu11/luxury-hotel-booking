@@ -5,6 +5,7 @@ import './Service.css';
 
 const Service = ({ service }) => {
     const { _id, image, title, description, price } = service;
+    
     return (
         <Col>
             <Card className="single-card">

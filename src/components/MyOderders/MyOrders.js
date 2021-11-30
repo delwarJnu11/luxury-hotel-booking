@@ -36,7 +36,7 @@ const MyOrders = () => {
     return (
         <Container className="my-4">
 
-            <h1 className="text-success text-center" style={{ fontFamily: "cursive" }}>My All Orders {orders.length}</h1>
+            <h1 className="text-success text-center">My All Orders {orders.length}</h1>
 
             {
                 orders.map(order => <Row xs={1} md={1} className="g-4 my-4">

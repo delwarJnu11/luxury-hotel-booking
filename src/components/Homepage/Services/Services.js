@@ -7,6 +7,7 @@ const Services = () => {
     const { services } = useServices();
     return (
         <Container className="my-5">
+
             <Row>
                 <Col>
                     <div>
@@ -20,6 +21,7 @@ const Services = () => {
                     services.map(service => <Service key={service._id} service={service}></Service>)
                 }
             </Row>
+
         </Container>
     );
 };

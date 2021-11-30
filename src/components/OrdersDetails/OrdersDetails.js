@@ -5,8 +5,8 @@ import { GiConfirmed } from 'react-icons/gi';
 import useOrders from '../../hooks/useOrders';
 
 const OrdersDetails = ({ order }) => {
-    console.log(order)
     const { allOrders, setAllOrders } = useOrders();
+    console.log(allOrders)
     //Remove
     const handleRemove = (id) => {
         const deleteWarning = window.confirm('Are You sure Delete This Service');
@@ -25,14 +25,12 @@ const OrdersDetails = ({ order }) => {
                 })
         }
 
-
-
     }
 
     // update
     const handleUpdate = id => {
         const updatedOrder = { ...allOrders };
-
+        console.log(updatedOrder)
         updatedOrder.status = "Approved";
 
         fetch(`https://nameless-bastion-67393.herokuapp.com/orders/${id}`, {

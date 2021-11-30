@@ -17,7 +17,7 @@ const Banner = () => {
                             <h2 className="fw-bold">EVERYTHING YOU NEED IN LUXURY HOTEL.</h2>
                             <p className="banner-decription mt-4">Best Luxury Hotels in Bangladesh on Tripadvisor: Find traveler reviews, candid photos, and prices for 36 luxury hotels in Bangladesh, Asia.</p>
                             <Link to="">
-                                <Button className="mt-3">Book Now</Button>
+                                <Button className="px-3 py-2 mt-3">Book Now</Button>
                             </Link>
                         </div>
                     </Col>
